@@ -1,19 +1,54 @@
+@import url("./fonts/typography.css");
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:"DIN", sans-serif !important;
+}
+
 header div[data-magellan-expedition="fixed"] {
 	background:rgb(035,031,032);
 	min-height:45px;
 	max-height:45px;
 	z-index:5;
 
-	-moz-box-shadow:0px 2px 12px #777;
-	-webkit-box-shadow:0px 2px 12px #777;
-	-o-box-shadow:0px 2px 12px #777;
-	box-shadow:0px 2px 12px #777;
+	-moz-box-shadow:0px 2px 12px #555;
+	-webkit-box-shadow:0px 2px 12px #555;
+	-o-box-shadow:0px 2px 12px #555;
+	box-shadow:0px 2px 12px #555;
 }
 
 header .top-bar {
 	background:url(../images/bg-header.jpg);
 	height:115px;
 	z-index:1;
+}
+
+header div[data-magellan-expedition="fixed"] {
+	background-color:rgb(097,097,092);
+}
+
+header div[data-magellan-expedition="fixed"] a {
+	color:#fff;
+}
+
+header div[data-magellan-expedition="fixed"] i {
+	color:#fff;
+	margin:5px 3px 0 8px;
+}
+
+header div[data-magellan-expedition="fixed"] input {
+	min-height:20px;
+	max-height:25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
+
+header div[data-magellan-expedition="fixed"] .button {
+	min-height:20px;
+	max-height:25px;
+	padding:3px 10px 5px;
+	margin:0;
 }
 
 header #logo {
@@ -26,19 +61,32 @@ header .top-bar-section ul#topNav {
 	background:none;
 	font-family: "DIN", sans-serif;
 	text-transform:uppercase;
-	margin:6% 0 0 25%;
+	margin:36px 0 0 260px;
+	z-index:1000 !important;
 }
 
 header .top-bar-section ul li {
 	background:none;
+	z-index:1000 !important;
 }
 
 header .top-bar-section ul li a {
 	background:none;
-	font-size:17px;
+	font-size:20px;
 	letter-spacing:0.5px;
 	color:#60605c;
 	text-shadow:1px 1px #fff;
+	z-index:1000 !important;
+}
+
+header .top-bar-section ul li a:hover {
+	background-color:none;
+	color:rgb(172,188,055);
+	text-shadow:1px 1px #000;
+}
+
+header .top-bar-section ul li ul li a {
+	text-shadow:none;
 }
 
 header span.right {
@@ -54,7 +102,7 @@ header span.right #signup {
 header i.social {
 	color:#333;
 	font-size:2em;
-	margin:1.5% 0 2% 0;
+	margin:1.7% 0 2% 0;
 
 	-moz-transition:all ease 0.3s;
 	-webkit-transition:all ease 0.3s;
@@ -86,6 +134,143 @@ section#middle {
 	min-height:700px;
 }
 
+section#middle section#banner span#banner-title {
+	color:#fff;
+	margin-top:-8%;
+	position:absolute;
+	z-index:2;
+}
+
+section#middle section#banner span#banner-title .page-title {
+	color:#fff;
+}
+
 #main3 {
 	height:190px;
+}
+
+.main-slideshow .orbit-container {
+	margin-bottom:1%;
+}
+
+.main-slideshow ul[data-orbit] li img {
+	min-width:100%;
+}
+
+.main-slideshow .orbit-bullets {
+	position:absolute;
+	right:1%;
+	top:96%;
+	z-index:1000;
+}
+
+.main-slideshow .orbit-caption {
+	width:50% !important;
+	font-size:1.5em !important;
+	text-transform:uppercase;
+	bottom:10% !important;
+}
+
+.main-slideshow ul li span#title,
+.main-slideshow ul li span#secondary-title {
+	display:block;
+}
+
+#middle h1.page-title,
+#middle h2.page-title {
+	text-transform:uppercase;
+}
+
+#middle h1.page-title {
+	font-size:2em;
+	color:rgb(097,097,092);
+}
+
+#middle h2.page-title {
+	font-size:2.8em;
+	color:#333;
+}
+
+#middle #img-header {
+	width:100%;
+}
+
+.category-list h3 {
+	background:rgb(130,132,135);
+	color:#fff;
+	padding:0 3px 0 3px;
+	position:absolute;
+	top:5%;
+	left:3%;
+}
+
+.category-list img {
+	min-width:105%;
+	max-width:105%;
+}
+
+.category-list p {
+	text-transform:uppercase;
+	font-size:0.9em;
+}
+
+footer {
+	margin:2% 0 0;
+	position:relative;
+	bottom:0 !important;
+}
+
+footer i.social {
+	color:#333;
+	font-size:1.5em;
+	margin:1.5% 0 2% 0;
+
+	-moz-transition:all ease 0.3s;
+	-webkit-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition:all ease 0.3s;
+}
+
+footer .social#facebook:hover {
+	color:rgb(059,089,152);
+}
+
+footer .social#twitter:hover {
+	color:rgb(000, 172, 237);
+}
+
+footer .social#pinterest:hover {
+	color:rgb(203,032,039);
+}
+
+footer .social#instagram:hover {
+	color:rgb(081,127,164);
+}
+
+footer .social#vimeo:hover {
+	color:rgb(170,212,80);
+}
+
+section#bottom-footer {
+	background:#f7f7f7;
+	min-height:50px;
+	padding:1%;
+	border-top:1px solid #eee;
+}
+
+footer section#bottom-footer #footer-links {
+	padding-top:2%;
+}
+
+footer section#bottom-footer #footer-social {
+	padding-top:1%;
+}
+
+footer section#bottom-footer #footer-links p {
+	font-size:0.7em !important;
+	text-transform:uppercase;
+}
+
+section#bottom-footer #footer-social {
+	text-align:right;
 }

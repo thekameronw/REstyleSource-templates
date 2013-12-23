@@ -1563,7 +1563,8 @@ meta.foundation-mq-topbar {
     display: block;
     background: #333333;
     font-size: 16px;
-    margin: 0; }
+    margin: 0;
+    z-index:1000 !important; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
@@ -1573,10 +1574,9 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: white;
+    /*color: white;*/
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     background: #333333; }
@@ -1636,10 +1636,12 @@ meta.foundation-mq-topbar {
     z-index: 99; }
     .top-bar-section .dropdown li {
       width: 100%;
-      height: auto; }
+      height: auto;
+      z-index:1000 !important; }
       .top-bar-section .dropdown li a {
         font-weight: normal;
-        padding: 8px 15px; }
+        padding: 8px 15px;
+        z-index:1000 !important; }
         .top-bar-section .dropdown li a.parent-link {
           font-weight: normal; }
       .top-bar-section .dropdown li.title h5 {
