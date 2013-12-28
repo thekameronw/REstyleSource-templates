@@ -19,7 +19,7 @@ header div[data-magellan-expedition="fixed"] {
 header .top-bar {
 	background:url(../images/bg-header.jpg);
 	height:115px;
-	z-index:4;
+	z-index:10;
 }
 
 header div[data-magellan-expedition="fixed"] {
@@ -41,7 +41,7 @@ header div[data-magellan-expedition="fixed"] input {
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	-o-border-radius:5px;
-	border-radius:5px;
+	border-radius:3px;
 }
 
 header div[data-magellan-expedition="fixed"] .button {
@@ -139,7 +139,7 @@ section#middle section#banner span#banner-title {
 	color:#fff;
 	margin-top:-8%;
 	position:absolute;
-	z-index:2;
+	z-index:5;
 }
 
 section#middle section#banner span#banner-title .page-title {
@@ -162,7 +162,7 @@ section#middle section#banner span#banner-title .page-title {
 	position:absolute;
 	right:1%;
 	top:96%;
-	z-index:1000;
+	z-index:3;
 }
 
 .main-slideshow .orbit-caption {
