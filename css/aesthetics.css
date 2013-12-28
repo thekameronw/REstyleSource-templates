@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 header div[data-magellan-expedition="fixed"] {
 	background:rgb(035,031,032);
 	min-height:45px;
-	max-height:45px;
+	max-height:48px;
 	z-index:5;
 
 	-moz-box-shadow:0px 2px 12px #555;
@@ -37,7 +37,7 @@ header div[data-magellan-expedition="fixed"] i {
 
 header div[data-magellan-expedition="fixed"] input {
 	min-height:20px;
-	max-height:25px;
+	max-height:30px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	-o-border-radius:5px;
@@ -46,9 +46,10 @@ header div[data-magellan-expedition="fixed"] input {
 
 header div[data-magellan-expedition="fixed"] .button {
 	min-height:20px;
-	max-height:25px;
+	max-height:30px;
 	padding:3px 10px 5px;
 	margin:0;
+	background-color:rgb(244,121,32);
 }
 
 header #logo {
@@ -100,7 +101,7 @@ header span.right #signup {
 }
 
 header i.social {
-	color:#333;
+	color:rgb(97,97,92);
 	font-size:2em;
 	margin:1.7% 0 2% 0;
 
@@ -350,4 +351,7 @@ footer section#bottom-footer #footer-links p {
 
 section#bottom-footer #footer-social {
 	text-align:right;
+	
 }
+
+a section#bottom-foot #foot-social{ color: rgb(244,121,32);}
