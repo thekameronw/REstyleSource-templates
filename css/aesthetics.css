@@ -19,7 +19,7 @@ header div[data-magellan-expedition="fixed"] {
 header .top-bar {
 	background:url(../images/bg-header.jpg);
 	height:115px;
-	z-index:1000;
+	z-index:4;
 }
 
 header div[data-magellan-expedition="fixed"] {
@@ -63,12 +63,12 @@ header .top-bar-section ul#topNav {
 	font-family: "DIN", sans-serif;
 	text-transform:uppercase;
 	margin:36px 0 0 260px;
-	z-index:5000 !important;
+	z-index:5 !important;
 }
 
 header .top-bar-section ul li {
 	background:none;
-	z-index:5000 !important;
+	z-index:5 !important;
 }
 
 header .top-bar-section ul li a {
@@ -77,7 +77,7 @@ header .top-bar-section ul li a {
 	letter-spacing:0.5px;
 	color:#60605c;
 	text-shadow:1px 1px #fff;
-	z-index:5000 !important;
+	z-index:5 !important;
 }
 
 header .top-bar-section ul li a:hover {
